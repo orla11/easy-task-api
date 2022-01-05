@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const connectDb = (connectionString): Promise<void> => {
+const connectDb = (connectionString: string): Promise<void> => {
 	return mongoose
 		.connect(connectionString)
 		.then(() => console.log("connected to db"))
