@@ -8,3 +8,9 @@
 ## Simple Task Manager API
 
 Made with NodeJs, Typescript and MongoDB
+
+### Roadmap
+
+- [ ] Add completed endpoint to directly complete a task
+- [ ] Refactor code in order to move business logic from controllers into services
+- [ ] Avanced Filtering
